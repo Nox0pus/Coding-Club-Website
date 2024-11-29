@@ -1,3 +1,44 @@
+* {
+    box-sizing: border-box;
+    text-decoration: none;
+}
 h1 {
     font-family: Arial, Helvetica, sans-serif;
+}
+nav {
+    background: gray;
+    height: 100px;
+    width: 100%;
+}
+nav ul {
+    float: right;
+    margin-right: 30px;
+    list-style: none;
+}
+nav ul li {
+    display: inline-block;
+    margin: 0 5px;
+    line-height: 100px;
+    list-style: none;
+}
+nav ul li a {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    padding: 10px 20px;
+    border-radius: 6px;
+    text-transform: uppercase;
+}
+label.forgot {
+    color: white;
+    font-size: 40px;
+    line-height: 100px;
+    padding: 0 100px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.top:hover {
+    background: darkgray;
+    transition: .25;
+    padding: 10px 20px;
 }
