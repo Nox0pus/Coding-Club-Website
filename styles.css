@@ -11,7 +11,7 @@ h1 {
     font-family: Arial, Helvetica, sans-serif;
 }
 nav {
-    background: #7f1416;
+    background: #690a0c;
     height: 100px;
     width: 100%;
 }
@@ -43,7 +43,7 @@ label.forgot {
     font-family: Arial, Helvetica, sans-serif;
 }
 .top:hover {
-    background: #690a0c;
+    background: #7f1416;
     transition: .25;
     padding: 10px 20px;
 }
