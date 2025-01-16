@@ -1,0 +1,96 @@
+body,html {
+    margin: 0;
+    padding: 0;
+}
+
+
+header{
+    height: 65px;
+    width: 100%;
+    background-color: white;
+    outline: solid 1px black;
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+}
+
+.headspan:hover {
+    color: white;
+    background-color: #7f1416;
+}
+
+
+.main-container {
+    display: flex;
+}
+
+.GYATT {
+    flex-direction: column;
+    width: 80%;
+    height: 10px;
+    background-color: blue;
+}
+
+.FLYATT {
+    display: flex;
+    width: 20%;
+    height: 100vh;
+    background: linear-gradient(to bottom, #ffcf00, #ff0000);
+    outline: solid 1px black;
+    justify-content: center;
+}
+
+.subheaded {
+    font-family: "Jacquard 12", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 35px;
+
+}
+
+.left-box {
+    width: 100%;
+    outline: solid 1px black;
+}
+
+#left-1 {
+    height: 175px;
+    background-color: #7f1416;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.titlekeeper {
+    box-sizing: border-box;
+}
+
+.titleong {
+    margin-top: 20px;
+    margin-bottom: 0;
+    font-family: "DotGothic16", serif;
+    font-weight: 400;
+    font-size: 75px;
+    font-style: normal;
+    color: white;
+}
+
+.para {
+    margin-top: 0;
+    margin-left: 100px;
+}
+
+#left-2 {
+    height: 250px;
+    background-color: pink;
+}
+
+#left-3 {
+    height: 250px;
+    background-color: aliceblue; 
+}
+
