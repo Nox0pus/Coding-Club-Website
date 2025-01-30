@@ -85,8 +85,22 @@ header{
 }
 
 #left-2 {
+    box-sizing: border-box;
     height: 250px;
     background-color: pink;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+
+.rsc-container {
+    display: flex;
+    width: 700px;
+    justify-content: space-evenly;
+    margin-left: 50%;
+}
+
+.rsc-img {
+    height: 200px;
 }
 
 #left-3 {
@@ -94,3 +108,6 @@ header{
     background-color: aliceblue; 
 }
 
+#twennyfive {
+    color: rgb(252, 220, 43);
+}
