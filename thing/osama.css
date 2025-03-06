@@ -108,6 +108,17 @@ header{
     background-color: aliceblue; 
 }
 
+.main-schedule {
+    display: grid;
+    grid-template-columns: 200px 350px 105px;
+    grid-template-rows: 45px 45px 45px 45px 45px;
+    border: 1px solid red;
+    margin: 75px;
+}
+.item {
+    border: 1px solid red;
+}
+
 #twennyfive {
     color: rgb(252, 220, 43);
 }
