@@ -92,22 +92,6 @@ header{
     
 }
 
-.rsc-container {
-    display: flex;
-    width: 750px;
-    justify-content: space-evenly;
-    margin-left: 50%;
-    padding-top: 20px;
-    padding-bottom: 70px;
-}
-
-.rsc-mini {
-
-}
-
-.rsc-img {
-    height: 200px;
-}
 
 #left-3 {
     display: flex;
