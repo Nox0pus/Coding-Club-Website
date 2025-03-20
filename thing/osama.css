@@ -86,17 +86,23 @@ header{
 
 #left-2 {
     box-sizing: border-box;
-    height: 250px;
     background-color: pink;
     flex-direction: row-reverse;
-    align-items: center;
+    justify-content: center;
+    
 }
 
 .rsc-container {
     display: flex;
-    width: 700px;
+    width: 750px;
     justify-content: space-evenly;
     margin-left: 50%;
+    padding-top: 20px;
+    padding-bottom: 70px;
+}
+
+.rsc-mini {
+
 }
 
 .rsc-img {
@@ -104,18 +110,21 @@ header{
 }
 
 #left-3 {
-    height: 250px;
+    display: flex;
     background-color: aliceblue; 
+    align-items: center;
+    justify-content: center;
 }
 
 .main-schedule {
     display: grid;
     grid-template-columns: 200px 350px 105px;
     grid-template-rows: 45px 45px 45px 45px 45px;
-    border: 1px solid red;
-    margin: 75px;
+    margin: 50px;
+    
 }
 .item {
+    text-align: center;
     border: 1px solid red;
 }
 
